@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>TV show confirmation</title>
+</head>
+<body>
+    <p th:inline="text">
+    The TV show's ID is <span style="color: red;" >[[${tvshow.id}]]</span>.<br/>
+    The TV show's name was <span style="color: red;" >[[${tvshow.name}]]</span>.<br/>
+    It is a <span stype="color:red;">[[${tvshow.type}]]</span> style's show.<br/>
+    It could be best described as <span style="color: red;"> [[${tvshow.description}]]</span>.<br/>
+    </p>
+</body>
+</html>
